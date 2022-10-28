@@ -1,0 +1,1424 @@
+*{
+    margin: 0%;
+    padding: 0%;
+   }
+
+
+   header{
+   
+    width: 96%;
+    height: 10vh;
+    border: solid #44B844 0.2vw;
+    box-shadow: gray 0vw 0vw 2vw;
+    border-radius: 1vw;
+    padding: 1%;
+    margin: 1%;
+    display: flex;
+    align-items: center;
+   }
+
+   .c_formlogout{
+    width: 15%;
+    height: 10vh;
+    margin-left: 5%;
+    display: flex;
+ 
+    align-items: center;
+  }
+   .menu{
+
+    width: 100%;
+    height: 13vh;
+  
+    display: flex;
+   
+   
+
+   }
+   .contenedorTitu{
+   
+    width: 20%;
+    height: 13vh;
+    display: flex;
+    align-items: center;
+ 
+   
+}
+
+.letratex2 {
+    color: black;
+    font-size: calc(1.5vh + 1.5vw);
+margin-left: 5%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* letra IA */
+.letratex3 {
+    color: rgba(14, 184, 42, 0.8);
+}
+
+
+
+
+
+
+.Cmenu2{
+    width: 50%;
+    height: 13vh;
+;
+    margin-left: 30%;
+    display: flex;
+   
+    align-items: center;
+    justify-content: end;
+    
+    
+  
+   
+   }
+
+   .button{
+    width: 100%;
+    height: 5vh;
+    text-decoration: none;
+    justify-content: center;
+    display: flex;
+   
+}
+
+.buttonhamburguesa{
+    width: 100%;
+    height: 5vh;
+    text-decoration: none;
+    justify-content: center;
+    display: flex;
+   
+}
+.Imgmenu{
+    width: 45% ;
+    height: 100%;
+    
+
+}
+.Imgmenuhamburguesa{
+    width: 45% ;
+    height: 75%;
+    
+
+}
+
+.txt{
+    font-size: calc( 0.7vh + 0.7vw);
+    margin-top: 5%;
+    color: black;
+    border: none;
+    background-color: transparent;
+    text-align: center;
+
+    width: 100%;
+}
+
+.Cb .txt:hover{
+   
+    font-size: calc( 0.6vh + 0.6vw);
+    color: #44B844;
+}
+
+.Cb{
+
+    width: 12% ;
+    height: 10vh;
+    border: none;
+    background-color: white;
+   margin-left: 3%;
+   text-decoration: none;
+
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+ 
+
+}
+
+.Cbhamburguesa{
+
+    width: 10% ;
+    height: 10vh;
+    border: none;
+    background-color: white;
+   margin-left: 1%;
+   text-decoration: none;
+
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+ 
+
+}
+
+.Cbhamburguesa:hover{
+
+    width: 10% ;
+    height: 10vh;
+    border: none;
+    background-color: white;
+   margin-left: 1%;
+   text-decoration: none;
+
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+ 
+
+}
+
+.Contenedor {
+    width:100%;
+    height: 80vh;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.Form_componente{
+    width: 75%;
+    height: 70vh;
+  border-radius: 5%;
+    border: 0.2vw solid #44B844;
+    box-shadow: grey 0vh 0vh 2vh;
+   
+
+
+}
+
+.C_fp{
+   width: 11%;
+   height: 14vh;
+  
+   position: relative;
+   bottom: 9%;
+   right: 4%;
+  
+}
+
+.Fp{
+background-color: white;
+   width: 100%;
+   height: 15vh;
+   border-radius: 100%;
+   align-items: center;
+   display: flex;
+   justify-content: center;
+   border: 0.2vw solid #44B844;
+   box-shadow: grey 0vh 0vh 2vh;
+
+
+}
+
+.Imgcomponente{
+   width: 56%;
+   height: 9vh;
+}
+
+.C_titulo{
+   
+   width: 80%;
+   height: 7vh;
+position: relative;
+bottom: 15%;
+left: 10%;
+
+
+
+
+}
+
+.TxtTitulo{
+ 
+
+   width: 100%;
+   height: 7vh;
+   text-align: center;
+   align-items: center;
+   font-size: calc( 1.8vh + 1.8vw);
+   color: rgb(0, 0,0, 50%);
+ 
+}
+
+.lineaCt{
+   width: 90%;
+   position: relative;
+   bottom: 15%;
+   left: 5%;
+ height: 0.5%;
+ background-color: #44B844;
+ border: none;
+}
+
+.contenedor2{
+ 
+   width: 100%;
+   height: 58vh;
+   position: relative;
+   bottom: 14%;
+   border-radius: 5%;
+
+ 
+   display: flex;
+   justify-content: center;
+}
+
+.ContendedorFP{
+   width: 99%;
+   height: 55vh;
+
+   margin-top: 1%;
+   border-radius: 10%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ 
+}
+
+.ContenedorFE{
+    width: 99%;
+    height: 55vh;
+    background-color: #44B844;
+    margin-top: 1%;
+    border-radius: 10%;
+  
+
+}
+
+.form-predict {
+    width: 90%;
+   
+    height: 49.7vh;
+    padding: 2%;
+   
+    color: white;
+  
+  
+    border-radius: 2%;
+}
+
+.controls {
+    width: 43%;
+    height: 13%;
+    padding: 3%;
+    border-radius: 1vh;
+    border: 0.3vh solid #53E053;
+    font-size: calc(0.5vh + 0.8vw);
+    color: black;
+    position: relative;
+    left: 1%;
+    
+}
+
+.form-predict .botons {
+    width: 23%;
+    height: 5vh;
+    background: #44B844;
+    border: none;
+    margin: 7%;
+    font-size: calc(1.8vh - 1%);
+    margin-left: 40%;
+    display: block;
+    border-radius: 50px;
+}
+
+.contenedorTc_l_m{
+    width: 100%;
+    height: 10vh;
+   color: #2b2e2e;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 3%;
+    font-size: calc( 0.5vh + 1vw);
+}
+
+
+
+
+
+.botons:hover {
+    background-color: #53E053;
+    border-width: 3%;
+    color: black;
+}
+
+.selector {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    appearance: none;
+    outline: 0;
+    box-shadow: none;
+
+    background-image: none;
+    flex: 1%;
+    padding: 3%;
+    color: #2b2e2e;
+    cursor: pointer;
+  border-radius: 1vh;
+    border: 0.3vh solid #53E053;
+     width: 72%;
+    height: 5.3vh;
+    font-size: calc(0.5vw + 0.8vh);
+    
+}
+
+
+.select {
+    position: relative;
+    
+    display: flex;
+    width: 50%;
+    height: 5.3vh;
+    line-height: 300%;
+    background: #5c6664;
+   
+   border-radius: 1vh;
+    font-size: calc(1.7vh - 2%);
+}
+
+.select2 {
+    position: relative;
+    right: 1.8%;
+    display: flex;
+    width: 50%;
+    height: 5.3vh;
+    line-height: 300%;
+    background: #5c6664;
+   
+   border-radius: 1vh;
+    font-size: calc(1.7vh - 2%);
+}
+
+
+
+.select::after {
+    content: '\25BC';
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 0 5%;
+  
+  
+    cursor: pointer;
+    pointer-events: none;
+    transition: .25s all ease;
+    font-size: calc(1.5vh - 2%);
+ color: #2b2e2e;
+}
+.select2::after {
+    content: '\25BC';
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 0 5%;
+  
+  
+    cursor: pointer;
+    pointer-events: none;
+    transition: .25s all ease;
+    font-size: calc(1.5vh - 2%);
+ color: #2b2e2e;
+}
+
+.select:hover::after {
+    color: #44B844;
+}
+.select2:hover::after {
+    color: #44B844;
+}
+
+/* COMPLEMENTACION DE NOSOTROS */
+
+
+.Contendedor_N{
+    width: 99%;
+    height: 55vh;
+ 
+    margin-top: 1%;
+    border-radius: 10%;
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+    
+    
+  
+ }
+
+ .ContenedorN2{
+    width: 99%;
+    height: 55vh;
+    
+    margin-top: 1%;
+    border-radius: 10%;
+    justify-content: center;
+  
+
+}
+ 
+.Padre_texto{
+    width: 99%;
+    height: 25vh;
+
+    margin-top: 2%;
+    border-radius: 10%;
+    display: flex;
+    justify-content: center;
+ 
+}
+
+.txt_nosotros{
+    color: #2b2e2e;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: calc( 1vh + 0.5vw);
+    width: 90%;
+    height: 25vh;
+    border-radius: 10%;
+  
+}
+
+.Cpadre_imagen{
+    width: 99%;
+    height: 55vh;
+ 
+    margin-top: 1%;
+    border-radius: 10%;
+    display: flex;
+    justify-content: center;
+  
+}
+
+.padre_imagen{
+    width: 60%;
+    height: 25vh;
+  
+    margin-top: 2%;
+}
+
+.imgimagen{
+    width: 100%;
+    height: 25vh;
+}
+
+.c_imagenes{
+    width: 99%;
+    height: 25vh;
+
+    margin-top: 2%;
+    border-radius: 10%;
+    display: flex;
+   
+}
+
+.padre_imagen2{
+    width:50%;
+    height: 20vh;
+  
+    margin-top: 2%;
+    margin-left: 2%;
+}
+
+.imgnosotros{
+    width:100%;
+    height: 20vh;
+}
+
+.padre_imagen3{
+    width:24%;
+    height: 18vh;
+
+    margin-top: 9%;
+    margin-left: 10%;
+}
+
+.imgIA{
+    width:100%;
+    height: 18vh;
+}
+
+.Padre_texto2{
+    width: 99%;
+    height: 25vh;
+
+    margin-top: 2%;
+    border-radius: 10%;
+    display: flex;
+    justify-content: center;
+ 
+}
+
+.txt_nosotros2{
+    color: #2b2e2e;
+ 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: calc( 1vh + 0.5vw);
+    width: 90%;
+    height: 25vh;
+    border-radius: 10%;
+    display: flex;
+    align-items: center;
+  
+}
+
+
+
+
+/* AQUI FINMALIZA NOSOTROS */
+
+
+
+
+
+
+/* Vista Historial */
+.contenedor2H{
+ 
+    width: 100%;
+    height: 55vh;
+    position: relative;
+    bottom: 14%;
+    border-radius: 5%;
+ /* background-color: blueviolet; */
+  
+   
+ }
+.padre_titulos{
+    width: 100%;
+    height: 5vh;
+    /* background-color: #44B844; */
+    margin-top: 2%;
+   
+}
+
+.Historial_thijos{
+    width: 100%;
+    height: 5vh;
+    
+ display: flex;
+ align-items: center;
+ justify-content: space-evenly;
+ 
+
+}
+.txt_tituloH{
+    color: #2b2e2e;
+    display: flex;
+    font-size: calc( 1vh + 1vw);
+    
+}
+
+.Contendedor_3H{
+    width: 99%;
+    height: 48vh;
+ background-color: aquamarine;
+    margin-top: 1%;
+    border-radius: 10%;
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+    
+    
+  
+ }
+
+
+
+/* AQUI finaliza historial */
+
+
+
+
+
+/* Vista Cultivos en seguimiento*/
+
+.contenedor2CS{
+ 
+    width: 100%;
+    height: 55vh;
+    position: relative;
+    bottom: 14%;
+    border-radius: 5%;
+
+  
+   
+ }
+.padre_titulosCS{
+    width: 100%;
+    height: 5vh;
+   
+    margin-top: 2%;
+   
+}
+
+.Historial_CShijos{
+    width: 100%;
+    height: 5vh;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ 
+
+}
+.txt_tituloCS{
+    color: #2b2e2e;
+    display: flex;
+    font-size: calc( 1vh + 1vw);
+   
+    margin-right: 20%;
+    width: 17% ;
+    height: 5vh;
+  
+}
+
+.Contendedor_3CS{
+    width: 99%;
+    height: 48vh;
+ 
+    margin-top: 1%;
+    border-radius: 10%;
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+
+
+    
+    
+  
+ }
+
+ .tablaCS{
+    width: 90%;
+    height: 7vh;
+
+    margin-top: 2%;
+    margin-left: 5%;
+
+   
+   
+ }
+
+ .hijotabla_CS{
+    width: 100%;
+    height: 7vh;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .txt_tituloCS1{
+    color: #2b2e2e;
+    display: flex;
+    font-size: calc( 1vh + 1vw);
+    margin-left: 5%;
+    margin-right: 15%;
+    width: 17%;
+    height: 5vh;
+   
+    
+}
+
+.contenedorbtncs{
+    width: 20%;
+    height: 6vh;
+    display: flex;
+  
+    
+}
+.btn_CS{
+
+    color: black;
+    display: flex;
+    font-size: calc( 1vh + 1vw);
+    width: 100%;
+    
+    height: 6vh;
+   
+    
+}
+
+.botonsCS {
+    width: 70%;
+    height: 5vh;
+    background: #44B844;
+    border: none;
+    margin: 3%;
+    font-size: calc(1.8vh - 1%);
+   color: black;
+    display: block;
+    border-radius: 50px;
+}
+
+.botonsCSborrar {
+    width: 40%;
+    height: 5vh;
+  
+    border: none;
+    margin: 3%;
+    font-size: calc(1.8vh - 1%);
+   color: black;
+    display: block;
+   
+}
+
+
+.botonsCS:hover{
+    width: 69%;
+    height: 5vh;
+    background: #53E053;
+    border: none;
+    margin: 3%;
+    font-size: calc(1.8vh - 1%);
+   
+    
+}
+.botonsCSborrar:hover{
+    width: 40%;
+    height: 5vh;
+    background: #53E053;
+    border: none;
+    margin: 3%;
+    font-size: calc(1.8vh - 1%);
+   
+    
+}
+
+
+/* finaliza Vista Cultivos en seguimiento*/
+
+
+
+/* Vista de Registro de Cultivos */
+
+.ContendedorRC{
+    width: 99%;
+    height: 55vh;
+ 
+   
+    border-radius: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+ }
+
+ .form_RC {
+
+width: 90%;  
+ height: 49.7vh;
+ padding: 2%;
+ color: white;
+ border-radius: 2%;
+ }
+
+ .contenedorTc_R_C{
+    width: 100%;
+    height: 9vh;
+   color: #2b2e2e;
+    display: flex;
+    
+    align-items: center;
+    justify-content: space-evenly;
+   
+    margin-top: 3%;
+    font-size: calc( 0.5vh + 1vw);
+}
+
+.selectorRC {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    appearance: none;
+    outline: 0;
+    box-shadow: none;
+
+    background-image: none;
+    flex: 1%;
+    padding: 3%;
+    color: #2b2e2e;
+    cursor: pointer;
+  border-radius: 1vh;
+    border: 0.3vh solid #53E053;
+     width: 72%;
+    height: 5.3vh;
+    font-size: calc(0.5vw + 0.8vh);
+    
+}
+
+
+.selectRC {
+    position: relative;
+    left: 3.2%;
+    display: flex;
+    width: 50%;
+    height: 5.3vh;
+    line-height: 300%;
+    
+    background: #5c6664;
+
+    border-radius: 1vh;
+    font-size: calc(1.7vh - 2%);
+}
+
+
+
+.selectRC::after {
+    content: '\25BC';
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 0 5%;
+  
+  
+    cursor: pointer;
+    pointer-events: none;
+    transition: .25s all ease;
+    font-size: calc(1.5vh - 2%);
+ color: #2b2e2e;
+}
+
+.selectRc:hover::after {
+    color: #44B844;
+}
+.selectorRC2 {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    appearance: none;
+    outline: 0;
+    box-shadow: none;
+
+    background-image: none;
+    flex: 1%;
+    padding: 3%;
+    color: #2b2e2e;
+    cursor: pointer;
+  border-radius: 1vh;
+    border: 0.3vh solid #53E053;
+     width: 72%;
+    height: 5.3vh;
+    font-size: calc(0.5vw + 0.8vh);
+    
+}
+
+
+.selectRC2 {
+    position: relative;
+    left: 0.3%;
+    display: flex;
+    width: 50%;
+    height: 5.3vh;
+    line-height: 300%;
+    background: #5c6664;
+  
+ border-radius: 1vh;
+    font-size: calc(1.7vh - 2%);
+}
+
+
+
+.selectRC2::after {
+    content: '\25BC';
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 0 5%;
+  
+  
+    cursor: pointer;
+    pointer-events: none;
+    transition: .25s all ease;
+    font-size: calc(1.5vh - 2%);
+ color: #2b2e2e;
+}
+
+.selectRC2:hover::after {
+    color: #44B844;
+}
+
+.form_RC .botonsRC {
+    width: 23%;
+    height: 5vh;
+    background: #44B844;
+    border: none;
+    margin: 5%;
+    font-size: calc(1.8vh - 1%);
+    margin-left: 90%;
+    display: block;
+    border-radius: 50px;
+}
+
+.botonsRC:hover {
+    background-color: #53E053;
+    border-width: 3%;
+    color: black;
+}
+
+.ContenedorTCA{
+    width: 99%;
+    height: 42vh;
+    
+    margin-top: 4.5%;
+    border-radius: 10%;
+    margin-right: 1%;
+    display: flex;
+    flex-direction: column;
+align-items: center;
+  
+
+}
+
+.C_TenEC{
+    width: 100%;
+    height: 7vh;
+   
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.txt_TenEC{
+    
+    font-size: calc(2vh + 1.5vw);
+    color: rgba(0, 0, 0, 50%);
+
+}
+
+.C_prf_tenEC{
+    width: 80%;
+    height: 22vh;
+   
+    margin-top: 3%;
+    background-color: rgba(255, 248, 229, 100%);
+    padding: 4%;
+}
+
+.txt_prfEC{
+    color: black;
+    font-size: calc( 1vh + 1vw);
+}
+
+
+.C_imgTenEC{
+   
+    width: 7%;
+    height: 10vh;
+    position: absolute;
+    bottom: 68%;
+    right: 42%;
+
+}
+.img_tenEC{
+    width: 100%;
+    height: 10vh;
+   
+
+}
+
+/* Finaliza Vista de Registro de Cultivos */
+
+
+
+/* Empieza vista Ayuda */
+.ContenedorAyuda {
+    width:100%;
+    height: 170vh;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+  
+}
+
+.P_Ayuda{
+    width: 80%;
+    height: 158vh;
+  
+    border-radius: 5vh;
+    border: solid 0.2vw #44B844;
+    margin-bottom: 5%;
+}
+
+.P_TyL{
+    width: 100%;
+    height: 35vh;
+
+    display: flex;
+}
+
+.P_imgcitriapp{
+    width: 50%;
+    height: 40vh;
+    
+    display: flex;
+    justify-content: end;
+    align-items: center;
+  
+}
+
+.img_citriapp{
+   
+    width: 54%;
+    height: 7vh;
+    margin-right: 5%;
+}
+
+.P_imgLogo{
+    width: 50%;
+    height: 40vh;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.H_img_Logo{
+     
+    width: 40%;
+    height: 25vh;
+    margin-right: 15%;
+    
+}
+
+.P_texto_ayuda{
+    width: 100%;
+    height: 12vh;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.h_txt_ayuda{
+    width: 80%;
+    height: 10vh;
+   
+    font-size: calc( 0.8vh + 1vw);
+    text-align: center;
+
+}
+.c_ayuda_prediccion{
+    height: 40vh;
+    width: 100%;
+   
+    display: flex;
+}
+
+.c_img_ayuda{
+    width: 50%;
+    height: 40vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img_ayuda_p{
+    width: 70%;
+    height: 30vh;
+   
+    margin-left: 13%;
+
+}
+
+.C_txt_a_p{
+    width: 50%;
+    height: 40vh;
+ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.txt_a_p{
+    width: 80%;
+    height: 20vh;
+ 
+    font-size: calc(0.5vh + 0.8vw);
+    margin-right: 17%;
+}
+
+.c_ayuda_historial{
+    height: 30vh;
+    width: 100%;
+
+    display: flex;
+}
+
+.C_txt_a_h{
+    width: 50%;
+    height: 30vh;
+ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.txt_a_h{
+    width: 80%;
+    height: 10vh;
+ 
+    font-size: calc(0.5vh + 0.8vw);
+    margin-left: 15%;
+
+    text-align: end;
+}
+
+.C_img_a_h{
+    width: 50%;
+    height: 30vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img_ayuda_h{
+    width: 70%;
+    height: 27vh;
+
+    
+}
+
+.C_ayuda_R_C{
+    height: 40vh;
+    width: 100%;
+  
+    display: flex;
+}
+
+.C_img_R_C{
+    width: 50%;
+    height: 40vh;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img_ayuda_R_C{
+    width: 70%;
+    height: 30vh;
+    margin-left: 13%;
+}
+
+.C_txt_R_C{
+    width: 50%;
+    height: 40vh;
+ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.txt_ayuda_R_C{
+    width: 80%;
+    height: 20vh;
+
+    font-size: calc(0.5vh + 0.8vw);
+    margin-right: 13%;
+
+}
+
+
+
+/* Finaliza Finaliza Vista Ayuda */
+
+
+   footer{
+    width: 100%;
+    height: 30vh;
+    background-color:#24303c;
+    display: flex;
+    align-items: center;
+    
+justify-content: center; 
+}
+
+
+.containerF{
+
+    width: 32%;
+    height: 28vh;
+    background-color: #24303c;
+
+}
+
+.containerF2{
+    width: 32%;
+    height: 28vh;
+    background-color:#24303c;
+    color: white;
+}
+
+
+.containerF3{
+    width: 32%;
+    height: 28vh;
+    }
+
+    
+
+        
+
+    
+ .Lista{
+    background-color: #24303c;
+    width: 50%;
+    height: 16vh;
+    text-align: center;
+    position: relative;
+    left: 25%;
+    top: 25%;
+   font-size: calc( 0.6vh + 0.6vw);
+   font-family: 'Courier New', Courier, monospace;
+   color: white;
+    
+ }
+ .lista1{
+    margin-top: 3%;}
+
+.Lista2 { 
+    background-color:#24303c;
+    width: 60%;
+    height: 20vh;
+    text-align: center;
+    position: relative;
+    left: 20%;
+    top: 20%;
+ 
+   font-family: 'Courier New', Courier, monospace;
+   color: white;
+
+}
+
+.LetraC{
+    font-size: calc( 1vh + 1vw);
+}
+
+.imgL{
+    width: 100%;
+    height: 20vh;
+  
+    display: flex;
+  
+}
+
+
+.cimgFacebook{
+    width: 43%;
+    height: 3vh;
+   
+    margin-top: 15% ;
+}
+
+
+.imgFacebook{
+    width: 20%;
+    height: 3vh;
+ 
+}
+
+.cimgWhatsapp{
+    width: 43%;
+    height: 3vh;
+
+    margin-top: 15% ;
+}
+.imgWhatsapp{
+    width: 20%;
+    height: 3vh;
+    margin-left: 10%;
+   
+   
+}
+.cimgInstagram{
+    width: 43%;
+    height: 3vh;
+  
+    margin-top: 15% ;
+    
+}
+
+
+
+
+.imgInstagram{
+    width: 20%;
+    height: 3vh;
+    margin-left: 20%;
+ 
+}
+
+.Lista3{
+ 
+    width: 60%;
+    height: 20vh;
+    text-align: center;
+    position: relative;
+    left: 20%;
+    top: 20%;
+ 
+   font-family: 'Courier New', Courier, monospace;
+   color: white;
+}
+
+.imgR{
+    width: 100%;
+    height: 20vh;
+  
+    display: flex;
+    flex-direction: column;
+  
+}
+.cimgTelefono{
+    width: 43%;
+    height: 3vh;
+    display: flex;
+    margin-top: 10% ;
+    
+}
+
+
+.imgTelefono{
+    width: 20%;
+    height: 3vh;
+    margin-left: 20%;
+
+
+
+ 
+}
+
+.cimgGmail{
+    width: 43%;
+    height: 3vh;
+    display: flex;
+    margin-top: 15% ;
+    
+}
+
+
+.imgGmail{
+    width: 20%;
+    height: 3vh;
+    margin-left: 20%;
+}
+
+
+h2{
+    margin-left: 8%;
+    font-size: calc( 0.6vh + 0.7vw);
+    font-family: 'Courier New', Courier, monospace;
+}

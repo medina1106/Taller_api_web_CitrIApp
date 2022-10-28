@@ -1,0 +1,596 @@
+*{
+    margin: 0%;
+    padding: 0%;
+   }
+
+
+   header{
+    width: 96%;
+    height: 13vh;
+    border: solid #44B844 0.2vw;
+    box-shadow: gray 0vw 0vw 2vw;
+    border-radius: 1vw;
+    padding: 1%;
+    margin: 1%;
+   }
+
+   .c_formlogout{
+    width: 15%;
+    height: 10vh;
+    margin-left: 5%;
+    display: flex;
+ 
+    align-items: center;
+  }
+
+   .menu{
+
+    width: 100%;
+    height: 13vh;
+    display: flex;
+   
+   
+
+   }
+   .contenedorTitu{
+   
+    width: 20%;
+    height: 13vh;
+    display: flex;
+    align-items: center;
+ 
+   
+}
+
+.letratex2 {
+    color: black;
+    font-size: calc(1.5vh + 1.5vw);
+margin-left: 5%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* letra IA */
+.letratex3 {
+    color: rgba(14, 184, 42, 0.8);
+}
+
+.button{
+    width: 100%;
+    height: 5vh;
+  
+    text-decoration: none;
+    justify-content: center;
+    display: flex;
+}
+.buttondes{
+    width: 100%;
+    height: 5vh;
+  
+    text-decoration: none;
+    justify-content: center;
+    display: flex;
+}
+
+.Cmenu2{
+    width: 50%;
+    height: 13vh;
+
+    margin-left: 30%;
+    display: flex;
+    align-items: center;
+    
+    
+  
+   
+   }
+
+.Imgmenu{
+    width: 45% ;
+    height: 5vh;
+
+}
+.Imgmenudes{
+    width: 45% ;
+    height: 5vh;
+
+}
+
+
+
+
+.txt{
+    font-size: calc( 0.7vh + 0.7vw);
+    margin-top: 5%;
+    color: black;
+    border: none;
+    background-color: transparent;
+    text-align: center;
+    
+
+  
+  
+}
+
+
+.Cb{
+
+    width: 15% ;
+    height: 10vh;
+    border: none;
+    background-color: white;
+   margin-left: 5%;
+   text-decoration: none;
+ 
+
+}
+
+.Cbdespegable{
+
+    width: 100% ;
+    height: 10vh;
+    border: none;
+    margin-top: 1%;
+ background-color: transparent;
+   text-decoration: none;
+ 
+ 
+
+}
+
+
+
+
+
+
+
+
+
+.Contenedor {
+    width:100%;
+    height: 80vh;
+   
+    display: flex;
+    align-items: center;
+}
+
+.contenedor2 {
+    width: 35%;
+    height: 86vh;
+    
+    display: flex;
+    align-items: center;
+}
+.contenedor3 {
+    width: 65%;
+    height: 86vh;
+  
+    display: flex;
+    align-items: center;
+}
+
+
+
+.form-perfil {
+    width: 80%;
+   background-color: white;
+    height: 70vh;
+   
+    box-shadow: gray 1vw 1vw 2vw;
+  margin-left: 12%;
+  border: #44B844 solid 0.2vw ;
+  
+    border-radius: 8%;
+}
+
+.form-perfil2{
+    width: 100%;
+    height: 30vh;
+  
+    position: relative;
+    bottom: 15%;
+   
+}
+
+.Listap{
+    width: 100%;
+    height: 33vh;
+   position: relative;
+   bottom: 10%;
+ 
+    
+    display: flex;
+    text-align: center;
+    
+    flex-direction: column;
+}
+
+.Txtlistap{
+    margin-top: 7%;
+    height: 10vh;
+    width: 100%;
+
+    font-size: calc(0.8vh + 0.8vw);
+
+}
+
+.Btneditar{
+    width: 33%;
+    height: 20vh;
+    background-color: #44B844;
+    border-radius: 10%;
+    border: none;
+    margin-left: 33%;
+    font-size: calc(0.8vh + 0.8vw);
+    border-radius: 50px;
+   
+}
+
+.Btneditar:hover{
+    width: 34%;
+    height: 20vh;
+    background-color: aquamarine;
+    border-radius: 10%;
+    border: none;
+    margin-left: 33%;
+    font-size: calc(0.8vh + 0.8vw);
+    border-radius: 50px;
+   
+}
+
+.C_btnp{
+    width: 50%;
+    height: 10vh;
+  
+
+    border: none;
+    margin-left: 40%;
+    margin-top: 7%;
+}
+
+
+.form-seguimiento {
+    width: 80%;
+   background-color: white;
+    height: 65vh;
+    padding: 2%;
+    
+    box-shadow: gray 1vw 1vw 2vw;
+  margin-left: 8%;
+  border: #44B844 solid 0.2vw ;
+  
+    border-radius: 8%;
+}
+.Ctitulo{
+    display: flex;
+    width: 100%;
+    height: 10vh;
+    
+    
+    align-items: center;
+    justify-content: center;
+}
+.TituSegui{
+    font-size: calc(2vh + 2vh);
+    color: rgb(0, 0, 0,  50%);
+}
+
+.lineaFS{  
+   border: solid 1px #44B844;
+    width: 80%;
+    height: 0.1vh;
+   margin-top: 2%;
+   margin-left: 10%;
+    
+}
+.CListaNYT{
+    display: flex;
+    width: 100%;
+    height: 45vh;
+   
+    margin-top: 2%;
+}
+.CtNYT{
+    display: flex;
+    width: 100%;
+    height: 10vh;
+  
+    justify-content: center;
+    align-items: center;
+   
+   
+}
+.TxtlistaNyt{
+    font-size: calc( 1vh + 1vw);
+    color:  rgb(0, 0, 0,  50%); 
+    margin-right: 7%;
+
+
+}
+
+/*fotter*/
+footer{
+    width: 100%;
+    height: 30vh;
+    background-color:#24303c;
+    display: flex;
+    align-items: center;
+    
+justify-content: center; 
+}
+
+
+.containerF{
+
+    width: 32%;
+    height: 28vh;
+   
+
+}
+
+.containerF2{
+    width: 32%;
+    height: 28vh;
+    background-color:#24303c;
+    color: white;
+}
+
+.CbP{
+
+    width: 33% ;
+    height: 20vh;
+  
+    background-color:transparent;
+    text-decoration: none;
+    position: relative;
+    bottom: 9%;
+    right: 10%;
+  
+
+   
+
+}
+
+.Imgperf{
+    width: 100%;
+    height: 15vh;
+    border-radius: 100%;
+    background-color: white;
+    border: solid #44B844 0.2vw ;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    box-shadow: gray 0vw 0vw 2vw;
+    text-decoration: none;
+   
+    
+}
+.ImgP{
+    width: 50%;
+    height: 7vh;
+}
+
+
+.CbFoto{
+
+    width: 40% ;
+    height: 22vh;
+  
+  
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+   position: relative;
+   bottom: 25%;
+   left: 30%;
+
+    
+  
+
+   
+
+}
+
+.CTxt{
+    width: 70%;
+    height: 5%;
+   
+    
+    text-align: center;
+    position: relative;
+    bottom: 23% ;
+    left: 15%;
+}
+
+.lineaFP{
+   background-color: #44B844;
+    width: 80%;
+    height: 0.1vh;
+    position: relative;
+    bottom: 20% ;
+    left: 10%;
+
+}
+.txtnombre{
+    color: black;
+    font-size: calc(1vw + 1vh);
+}
+
+
+.ImgFot{
+    width: 100%;
+    height: 15vh;
+    border-radius: 100%;
+   
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    box-shadow: gray 0vw 0vw 2vw;
+    text-decoration: none;
+   
+    
+}
+.ImgFoto{
+    width: 100%;
+    height: 20vh;
+}
+
+
+.containerF3{
+    width: 32%;
+    height: 28vh;
+    }
+
+    
+
+        
+
+    
+ .Lista{
+ 
+    width: 50%;
+    height: 16vh;
+    text-align: center;
+    position: relative;
+    left: 25%;
+    top: 25%;
+   font-size: calc( 0.6vh + 0.6vw);
+   font-family: 'Courier New', Courier, monospace;
+   color: white;
+    
+ }
+ .lista1{
+    margin-top: 3%;}
+
+.Lista2 { 
+    background-color:#24303c;
+    width: 60%;
+    height: 20vh;
+    text-align: center;
+    position: relative;
+    left: 20%;
+    top: 20%;
+ 
+   font-family: 'Courier New', Courier, monospace;
+   color: white;
+
+}
+
+.LetraC{
+    font-size: calc( 1vh + 1vw);
+}
+
+.imgL{
+    width: 100%;
+    height: 20vh;
+  
+    display: flex;
+  
+}
+
+
+.cimgFacebook{
+    width: 43%;
+    height: 3vh;
+   
+    margin-top: 15% ;
+}
+
+
+.imgFacebook{
+    width: 20%;
+    height: 3vh;
+ 
+}
+
+.cimgWhatsapp{
+    width: 43%;
+    height: 3vh;
+
+    margin-top: 15% ;
+}
+.imgWhatsapp{
+    width: 20%;
+    height: 3vh;
+    margin-left: 10%;
+   
+   
+}
+.cimgInstagram{
+    width: 43%;
+    height: 3vh;
+  
+    margin-top: 15% ;
+    
+}
+
+
+
+
+.imgInstagram{
+    width: 20%;
+    height: 3vh;
+    margin-left: 20%;
+ 
+}
+
+.Lista3{
+ 
+    width: 60%;
+    height: 20vh;
+    text-align: center;
+    position: relative;
+    left: 20%;
+    top: 20%;
+ 
+   font-family: 'Courier New', Courier, monospace;
+   color: white;
+}
+
+.imgR{
+    width: 100%;
+    height: 20vh;
+  
+    display: flex;
+    flex-direction: column;
+  
+}
+.cimgTelefono{
+    width: 43%;
+    height: 3vh;
+    display: flex;
+    margin-top: 10% ;
+    
+}
+
+
+.imgTelefono{
+    width: 20%;
+    height: 3vh;
+    margin-left: 20%;
+
+
+
+ 
+}
+
+.cimgGmail{
+    width: 43%;
+    height: 3vh;
+    display: flex;
+    margin-top: 15% ;
+    
+}
+
+
+.imgGmail{
+    width: 20%;
+    height: 3vh;
+    margin-left: 20%;
+}
+
+
+h2{
+    margin-left: 8%;
+    font-size: calc( 0.6vh + 0.7vw);
+    font-family: 'Courier New', Courier, monospace;
+}

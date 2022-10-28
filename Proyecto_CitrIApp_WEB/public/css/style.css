@@ -1,0 +1,222 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.contenedor {
+    width: 98.7vw;
+    height: 53vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("../img/Contenedor.jpg");
+    background-color: #44b844;
+
+    /* opacity: 0.3; */
+}
+
+/* letra CITRIAPP */
+.letratex2 {
+    color: black;
+    font-size: calc(5vh + 5vw);
+    text-align: center;
+
+    /* font-family: 'Anthony Hunter', Italic; */
+}
+
+/* letra IA */
+.letratex3 {
+    color: rgba(14, 184, 42, 0.8);
+}
+
+.contenedorTitu {
+    width: 43vw;
+    height: 20vh;
+    margin-left: 32%;
+    position: relative;
+    top: 11%;
+}
+
+.CLogo {
+    width: 20vw;
+    height: 38vh;
+
+    position: absolute;
+
+    position: relative;
+    left: 40%;
+    top: 14%;
+}
+
+.imglogo {
+    height: 38vh;
+    width: 20vw;
+    z-index: 2;
+}
+
+/* finaliza contenedor 1 creo JAJAJ */
+
+.contenedor2 {
+    width: 98.7vw;
+    height: 50vh;
+
+    display: flex;
+    align-items: center;
+}
+.menu {
+    width: 100vw;
+    height: 34vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.Cb {
+    width: 12vw;
+    height: 22vh;
+
+    text-decoration: none;
+}
+
+.button {
+    width: 12vw;
+    height: 21vh;
+    border-radius: 100%;
+    background-color: white;
+    border: solid #44b844 0.3vw;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    box-shadow: gray 0vw 0vw 2vw;
+    text-decoration: none;
+}
+.Imghome {
+    width: 7vw;
+    height: 12vh;
+}
+
+.ImgSer {
+    width: 7vw;
+    height: 12vh;
+}
+
+.button:hover {
+    background-color: #44b844;
+    width: 103%;
+    height: 22vh;
+}
+
+.txt:hover {
+    background-color: transparent;
+}
+
+.ImgNosotros {
+    width: 7vw;
+    height: 12vh;
+}
+
+.txt {
+    font-size: calc(1vh + 1vw);
+    text-align: center;
+    margin-top: 5%;
+    color: black;
+}
+
+@media screen and (max-width: 640px)  {
+    .contenedor2 {
+        width: 100vw;
+        height: 130vh;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+    }
+    .contenedorTitu {
+      
+        display: none;
+    }
+    .button {
+        width: 35vw;
+        height: 21vh;
+    
+    }
+    .button:hover {
+       
+        width: 28vw;
+        height: 22vh;
+    }
+
+    .menu {
+        width: 100vw;
+        height: 120vh;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: column;
+    }
+
+    .CLogo {
+        width: 50vw;
+        height: 35%;
+        position: absolute;
+        left: 25%;
+    }
+
+    .txt {
+        font-size: calc(1.5vh + 1.5vw);
+        text-align: center;
+        margin-top: 5%;
+        color: black;
+        justify-content: center;
+    }
+
+    .Cb {
+        width: 32vw;
+        height: 28vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        text-decoration: none;
+    }
+
+    .sm-1 {
+        width: 8, 33%;
+    }
+    .sm-2 {
+        width: 16, 67%;
+    }
+    .sm-3 {
+        width: 25%;
+    }
+    .sm-4 {
+        width: 33, 33%;
+    }
+    .sm-5 {
+        width: 41, 67%;
+    }
+    .sm-6 {
+        width: 50%;
+    }
+    .sm-7 {
+        width: 58, 33%;
+    }
+    .sm-8 {
+        width: 66, 67%;
+    }
+    .sm-9 {
+        width: 75%;
+    }
+    .sm-10 {
+        width: 83, 33%;
+    }
+    .sm-11 {
+        width: 91, 67%;
+    }
+    .sm-12 {
+        width: 100%;
+    }
+}

@@ -1,0 +1,404 @@
+*{
+    margin: 0%;
+    padding: 0%;
+   }
+
+      .contenedor {
+          width: 100%;
+          height: 25vh;
+          background-size: cover;
+          background-repeat: no-repeat;
+          background-image: url('../Img/Contenedor.jpg');
+          display: flex;
+          justify-content: flex-end;
+          align-items: center;
+
+          
+      }
+
+      .CLogo {
+        width: 18vw;
+        height: 35vh;
+    z-index: 2;
+      position: absolute;
+  
+        position: relative;
+        right: 12%;
+        top: 26%;
+      
+    }
+    .imglogo {
+        height: 35vh;
+        width: 20vw;
+        z-index: 2;
+    }
+
+      .c_formlogout{
+        width: 25vw;
+        height: 10vh;
+        margin-right: 5%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+
+      }
+
+      .C_datosperfil{
+
+        width: 100%;
+        height: 80%;
+        display: flex;
+        justify-content: center;
+        position: relative;
+        left: 3%;
+       
+
+      
+      }
+      .txtnombre{
+        color: white;
+        display: flex;
+        align-items: center;
+        font-size: calc(1vh + 1vw);
+    justify-content: flex-end;
+      width: 100%;
+      height: 7vh;
+      margin-top: 2%;
+      
+      
+     
+    }
+    
+
+
+      
+    .c_btnlogout{
+        width: 40%;
+        height: 7vh;
+       position: relative;
+       left: 2%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .btnLogout{
+        width: 80%;
+        height: 5vh;
+        background: #44B844;
+        border: none;
+        border: solid white 0.1vw;
+        font-size: calc(1.8vh - 1%);
+       color: black;
+        display: block;
+        border-radius: 50px;
+    }
+
+    .btnLogout:hover{
+        width: 81%;
+        height: 6vh;
+        background: red;
+        border: none;
+        
+        color: white;
+        font-size: calc(1.8vh - 1%);
+       
+        
+    }
+
+
+      .contenedor2 {
+        width: 100%;
+        height: 90vh;
+     
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    
+    }
+
+    .menu{
+
+        width: 100%;
+        height: 30vh;
+   
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 7%;
+        
+         
+        
+        
+        }
+
+        .menu2{
+
+            width: 100%;
+            height: 30vh;
+       
+            display: flex;
+            justify-content: space-evenly;
+            margin-top: 1%;
+         
+        
+             
+            
+            
+            }
+        
+        .Cb{
+        
+            width: 12% ;
+            height: 22vh;
+            border: none;
+            background-color: white;
+            text-decoration: none;
+           
+        
+        }
+        
+        .button{
+            width: 100%;
+            height: 21vh;
+            border-radius: 100%;
+            background-color: white;
+            border: solid #44B844 0.3vw ;
+            align-items: center;
+            display: flex;
+            justify-content: center;
+            box-shadow: gray 0vw 0vw 2vw;
+            
+        }
+        .Imghome{
+            width: 50% ;
+            height: 12vh;
+        
+        }
+        
+        
+        
+        .ImgSer{
+            width: 50%;
+            height: 12vh;
+        }
+        
+        
+        .button:hover{
+        
+            background-color: #44B844;
+           width: 103%;
+            height: 22vh;
+        
+         
+            
+            
+        
+        }
+        
+        .txt:hover{
+            background-color: transparent;
+        }
+        
+        .ImgNosotros{
+            width: 50% ;
+            height: 12vh;
+        
+        }
+        
+        .txt{
+            font-size: calc( 1vh + 1vw);
+            text-align: center;
+            margin-top: 5%;
+            color: black;
+        }
+
+
+        /*foteer*/
+        
+
+        footer{
+            width: 100%;
+            height: 30vh;
+            background-color:#24303c;
+            display: flex;
+            align-items: center;
+            
+        justify-content: center; 
+        }
+        
+        
+        .containerF{
+        
+            width: 32%;
+            height: 28vh;
+            background-color: #24303c;
+        
+        }
+        
+        .containerF2{
+            width: 32%;
+            height: 28vh;
+            background-color:#24303c;
+            color: white;
+        }
+        
+        
+        .containerF3{
+            width: 32%;
+            height: 28vh;
+            }
+        
+            
+        
+                
+        
+            
+         .Lista{
+            background-color: #24303c;
+            width: 50%;
+            height: 16vh;
+            text-align: center;
+            position: relative;
+            left: 25%;
+            top: 25%;
+           font-size: calc( 0.6vh + 0.6vw);
+           font-family: 'Courier New', Courier, monospace;
+           color: white;
+            
+         }
+         .lista1{
+            margin-top: 3%;}
+        
+        .Lista2 { 
+            background-color:#24303c;
+            width: 60%;
+            height: 20vh;
+            text-align: center;
+            position: relative;
+            left: 20%;
+            top: 20%;
+         
+           font-family: 'Courier New', Courier, monospace;
+           color: white;
+        
+        }
+        
+        .LetraC{
+            font-size: calc( 1vh + 1vw);
+        }
+        
+        .imgL{
+            width: 100%;
+            height: 20vh;
+          
+            display: flex;
+          
+        }
+        
+        
+        .cimgFacebook{
+            width: 43%;
+            height: 3vh;
+           
+            margin-top: 15% ;
+        }
+        
+        
+        .imgFacebook{
+            width: 20%;
+            height: 3vh;
+         
+        }
+        
+        .cimgWhatsapp{
+            width: 43%;
+            height: 3vh;
+        
+            margin-top: 15% ;
+        }
+        .imgWhatsapp{
+            width: 20%;
+            height: 3vh;
+            margin-left: 10%;
+           
+           
+        }
+        .cimgInstagram{
+            width: 43%;
+            height: 3vh;
+          
+            margin-top: 15% ;
+            
+        }
+        
+        
+        
+        
+        .imgInstagram{
+            width: 20%;
+            height: 3vh;
+            margin-left: 20%;
+         
+        }
+        
+        .Lista3{
+         
+            width: 60%;
+            height: 20vh;
+            text-align: center;
+            position: relative;
+            left: 20%;
+            top: 20%;
+         
+           font-family: 'Courier New', Courier, monospace;
+           color: white;
+        }
+        
+        .imgR{
+            width: 100%;
+            height: 20vh;
+          
+            display: flex;
+            flex-direction: column;
+          
+        }
+        .cimgTelefono{
+            width: 43%;
+            height: 3vh;
+            display: flex;
+            margin-top: 10% ;
+            
+        }
+        
+        
+        .imgTelefono{
+            width: 20%;
+            height: 3vh;
+            margin-left: 20%;
+        
+        
+        
+         
+        }
+        
+        .cimgGmail{
+            width: 43%;
+            height: 3vh;
+            display: flex;
+            margin-top: 15% ;
+            
+        }
+        
+        
+        .imgGmail{
+            width: 20%;
+            height: 3vh;
+            margin-left: 20%;
+        }
+        
+        
+        h2{
+            margin-left: 8%;
+            font-size: calc( 0.6vh + 0.7vw);
+            font-family: 'Courier New', Courier, monospace;
+        }
